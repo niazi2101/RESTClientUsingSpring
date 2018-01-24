@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="5dp"
+    android:layout_margin="2dp">
+
+    <LinearLayout android:id="@+id/Text"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvPersonID"
+        android:layout_toEndOf="@+id/tvPersonID">
+
+        <TextView
+            android:id="@+id/tvNameL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:textStyle="italic"
+            android:layout_marginLeft = "10dp"
+
+            />
+        <TextView
+            android:id="@+id/tvPayRateL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Pay Rate:"
+            android:textColor="#000000"
+            android:paddingLeft="10dip"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvPersonID"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shape_textview"
+        android:textAlignment="center"
+
+
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.hknia.restclient.SimpleMainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="GET" />
+
+        <Button
+            android:id="@+id/btnGetAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Get All" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:onClick="buttonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POST" />
+
+        <Button
+            android:id="@+id/btnPut"
+            android:onClick="buttonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUT" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:onClick="buttonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE" />
+    </LinearLayout>
+</RelativeLayout>
