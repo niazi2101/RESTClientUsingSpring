@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757673995077",
+    "firebase_url": "https://restpractice-193310.firebaseio.com",
+    "project_id": "restpractice-193310",
+    "storage_bucket": "restpractice-193310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757673995077:android:3b8df4298ff27826",
+        "android_client_info": {
+          "package_name": "com.example.hknia.restclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757673995077-4t8cf721uhnhkfqjkkc7lk0t6qv0o06n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hknia.restclient",
+            "certificate_hash": "be172f5cacce146769d65b6c966cb0ce952cd5b6"
+          }
+        },
+        {
+          "client_id": "757673995077-bcqong269o7ub0bik33v1vqbotm7cebi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ9xd4ukGyZo8KLCsjUJhFNseaOLMH3Qw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757673995077-bcqong269o7ub0bik33v1vqbotm7cebi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

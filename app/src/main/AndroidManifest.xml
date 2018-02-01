@@ -11,38 +11,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SimpleMainActivity" >
-
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        -->
-        </activity>
-
-
-
-        <activity android:name=".activities.GetActivity"/>
-
-        <activity android:name=".activities.GetAllActivity" >
+        <activity android:name=".SimpleMainActivity">
 
         </activity>
-
+        <activity android:name=".activities.GetActivity" />
+        <activity android:name=".activities.GetAllActivity"></activity>
         <activity android:name=".activities.PostActivity" />
+        <activity android:name=".activities.PutActivity"></activity>
+        <activity android:name=".activities.DeleteActivity" />
 
+        <!--         <service android:name=".messagFirebaseIDServiceging" /> -->
 
-        <activity android:name=".activities.PutActivity" >
+        <service android:name=".messaging.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".messaging.FirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".FireActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activities.DeleteActivity"/>
-
-
     </application>
 
 </manifest>
